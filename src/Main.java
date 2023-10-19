@@ -10,7 +10,10 @@ public class Main {
         } else {
             bonus = 0;
         }
-        System.out.println("bonus:" + bonus);
+        int total = score + replenishment + bonus;
+
+        System.out.println("Итого:" + total );
+        System.out.println("Бонус:" + bonus);
 
     }
 }
